@@ -9,10 +9,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: "Download prerequisite: Makopo/lslint"
+      - name: "Download prerequisite: NikkiLacrima/lslint"
         uses: actions/checkout@v2
         with:
-          repository: "Makopo/lslint"
+          repository: "NikkiLacrima/lslint"
           path: "linter"
       - name: "Compile Linter"
         run: |
