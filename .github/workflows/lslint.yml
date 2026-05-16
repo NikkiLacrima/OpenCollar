@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
 
       - name: "Download prerequisite: NikkiLacrima/lslint"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           repository: "NikkiLacrima/lslint"
           path: "linter"
